@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+  background-image: url(./Image/pattern-background-desktop.svg);
+  background-color: rgb(221, 237, 250);
+  background-repeat: no-repeat;
+  padding: 50px 50px;
+}
+
+.first {
+  display: flex;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  border-radius: 30px;
+  margin-top: 15px;
+}
+.got {
+  background-color: white;
+  padding: 10%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+  bottom: 0.2rem;
+}
+.name {
+  color: rgb(37, 37, 179);
+  margin-top: 10px;
+  font-weight: bold;
+}
+.free {
+  width: 70%;
+  margin-left: 15%;
+}
+.see {
+  margin-bottom: 15px;
+}
+.btn {
+  background-color: blue;
+  border-radius: 5px;
+  height: 40px;
+  color: white;
+  border: none;
+  width: 80%;
+  margin-top: 15px;
+  box-shadow: 20px 20px rgb(248, 248, 248);
+}
+.cancel {
+  margin-top: 15%;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  font-size: 1rem;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 320px) {
+  .App {
+    padding: 50px 10px;
+  }
+  .got {
+    position: relative;
+    bottom: 0.2rem;
+  }
+}
+
+@media (min-width: 360px) {
+  .App {
+    padding: 70px 30px;
+  }
+  .got {
+    position: relative;
+    bottom: 0.2rem;
+  }
+}
+
+@media (min-width: 425px) {
+  .App {
+    padding: 100px 50px;
+  }
+  .got {
+    position: relative;
+    bottom: 0.2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .App {
+    padding: 100px 100px;
+  }
+  .got {
+    position: relative;
+    bottom: 0.2rem;
+  }
+}
+@media (min-width: 800px) {
+  .App {
+    padding: 100px 200px;
+  }
+  .got {
+    position: relative;
+    bottom: 0.2rem;
+  }
+}
+@media (min-width: 1000px) {
+  .App {
+    padding: 100px 280px;
+  }
+  .got {
+    position: relative;
+    bottom: 0.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .App {
+    padding: 100px 400px;
+  }
+  .got {
+    position: relative;
+    bottom: 0.2rem;
+  }
+}
