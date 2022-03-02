@@ -90,19 +90,11 @@
   .App {
     padding: 50px 10px;
   }
-  .got {
-    position: relative;
-    bottom: 0.2rem;
-  }
 }
 
 @media (min-width: 360px) {
   .App {
     padding: 70px 30px;
-  }
-  .got {
-    position: relative;
-    bottom: 0.2rem;
   }
 }
 
@@ -110,45 +102,25 @@
   .App {
     padding: 100px 50px;
   }
-  .got {
-    position: relative;
-    bottom: 0.2rem;
-  }
 }
 
 @media (min-width: 600px) {
   .App {
     padding: 100px 100px;
   }
-  .got {
-    position: relative;
-    bottom: 0.2rem;
-  }
 }
 @media (min-width: 800px) {
   .App {
     padding: 100px 200px;
-  }
-  .got {
-    position: relative;
-    bottom: 0.2rem;
   }
 }
 @media (min-width: 1000px) {
   .App {
     padding: 100px 280px;
   }
-  .got {
-    position: relative;
-    bottom: 0.2rem;
-  }
 }
 @media (min-width: 1200px) {
   .App {
     padding: 100px 400px;
-  }
-  .got {
-    position: relative;
-    bottom: 0.2rem;
   }
 }
